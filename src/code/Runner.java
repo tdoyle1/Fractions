@@ -11,4 +11,3 @@ public class Runner
         System.out.println(multiplied);
     }
 }
-//hello
