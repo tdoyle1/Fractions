@@ -24,8 +24,9 @@ public class Fraction
 
     public Fraction multiply(Fraction f)
     {
-
+        return new Fraction(num*f.num, denom*f.denom);
     }
+
 
     public String toString()
     {

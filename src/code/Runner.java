@@ -7,6 +7,7 @@ public class Runner
         Fraction myFraction = new Fraction( 2, 3);
         Fraction otherFraction = new Fraction(5);
         Fraction a = new Fraction (myFraction);
-        System.out.println(myFraction);
+        Fraction multiplied = myFraction.multiply(otherFraction);
+        System.out.println(multiplied);
     }
 }
